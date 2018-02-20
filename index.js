@@ -24,6 +24,7 @@ function currentLine(katzDeli){
     var additionalName = " "+num.toString() + ". " +katzDeli[i]+",";
     finalMessage = finalMessage + additionalName;
   }
+  var messageLength = finalMessage.length - 1;
   finalMessage = finalMessage.slice(0,-1);
   return finalMessage
 }
