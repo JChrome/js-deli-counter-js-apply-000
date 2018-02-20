@@ -11,6 +11,7 @@ function nowServing(katzDeli){
     return "There is nobody waiting to be served!"
   }
   var firstname = katzDeli[0];
+  katzDeli.splice(0,1);
   return `Currently serving ${firstname}.`
 }
 
