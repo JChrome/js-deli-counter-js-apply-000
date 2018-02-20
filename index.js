@@ -19,6 +19,7 @@ function currentLine(katzDeli){
   if (katzDeli.length === 0){
     return "The line is currently empty."
   }
+  var i = 0;
   var finalMessage = "The line is currently:"
   for (i = 0; i < katzDeli.length; i++){
     var num = i + 1
